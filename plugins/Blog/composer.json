@@ -2,6 +2,12 @@
     "name": "keacrea/base-blog",
     "description": "Blog plugin for keacrea",
     "type": "cakephp-plugin",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/keacrea/base-blog"
+        }
+    ],
     "license": "MIT",
     "require": {
         "cakephp/cakephp": "^3.5"
